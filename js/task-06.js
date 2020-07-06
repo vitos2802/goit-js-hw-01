@@ -7,8 +7,7 @@ do {
   if (isNaN(Number(input))) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
-  } else {
-    total += +input;
   }
+  total += +input;
 } while (input !== null);
 alert(`Общая сумма чисел равна ${total}`);
